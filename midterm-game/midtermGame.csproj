@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>midterm_game</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images&amp;Assets\**" />
+    <EmbeddedResource Remove="Images&amp;Assets\**" />
+    <None Remove="Images&amp;Assets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Shaders\frag.glsl" />
+    <None Remove="Shaders\vert.glsl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Shaders\frag.glsl" />
+    <Content Include="Shaders\vert.glsl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="glsl Shaders\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTK" Version="4.9.4" />
+    <PackageReference Include="StbImageSharp" Version="2.30.15" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.10" />
+  </ItemGroup>
+
+</Project>
