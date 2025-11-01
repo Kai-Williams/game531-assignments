@@ -21,13 +21,13 @@ Texture loading with STBImageSharp (Texture.cs)
 Real-time transformations and rendering using OpenGL
 Basic lighting and perspective
 
---------- How to Build and Run ---------
+How to Build and Run: 
 Have .NET 6.0 SDK or higher
 Use the following NuGet Packages:
 OpenTK (Windowing and OpenGL)
 Use stbImageSharp
 System.Drawing.Common for some texture handling
-----------------------------------------
+
 
 Credits: 
 https://www.solarsystemscope.com/textures/ (For textures used for the planets, sun, and space)
