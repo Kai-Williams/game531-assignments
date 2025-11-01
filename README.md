@@ -8,7 +8,8 @@ Gameplay Instructions:
 
 W / S – Move forward or backward
 A / D – Move left or right
-Space - Move up
+Space - Move 
+E - To turn on and off the lighting
 Mouse movement – Look around
 Esc - Gives you cursor visibility so you can either move the solar system by clicking and dragging or exiting the game if you wish
 
