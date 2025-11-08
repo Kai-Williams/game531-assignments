@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net9.0</TargetFramework>
+		<RootNamespace>midterm_game</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Images\2k_neptune.jpg" />
+	  <None Remove="Images\2k_uranus.jpg" />
+	  <None Remove="Images\4k_venus_atmosphere.jpg" />
+	  <None Remove="Images\8k_earth_daymap.jpg" />
+	  <None Remove="Images\8k_earth_nightmap.jpg" />
+	  <None Remove="Images\8k_earth_normal_map.tif" />
+	  <None Remove="Images\8k_jupiter.jpg" />
+	  <None Remove="Images\8k_mars.jpg" />
+	  <None Remove="Images\8k_mercury.jpg" />
+	  <None Remove="Images\8k_moon.jpg" />
+	  <None Remove="Images\8k_saturn.jpg" />
+	  <None Remove="Images\8k_stars_milky_way.jpg" />
+	  <None Remove="Images\8k_sun.jpg" />
+	  <None Remove="Images\8k_venus_surface.jpg" />
+	  <None Remove="Images\saturn_rings.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Images\2k_neptune.jpg" />
+	  <Content Include="Images\2k_uranus.jpg" />
+	  <Content Include="Images\4k_venus_atmosphere.jpg" />
+	  <Content Include="Images\8k_earth_daymap.jpg" />
+	  <Content Include="Images\8k_earth_nightmap.jpg" />
+	  <Content Include="Images\8k_earth_normal_map.tif" />
+	  <Content Include="Images\8k_jupiter.jpg" />
+	  <Content Include="Images\8k_mars.jpg" />
+	  <Content Include="Images\8k_mercury.jpg" />
+	  <Content Include="Images\8k_moon.jpg" />
+	  <Content Include="Images\8k_saturn.jpg" />
+	  <Content Include="Images\8k_stars_milky_way.jpg" />
+	  <Content Include="Images\8k_sun.jpg" />
+	  <Content Include="Images\8k_venus_surface.jpg" />
+	  <Content Include="Images\saturn_rings.png" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<None Update="Shaders\**\*.glsl">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Images\**\*.*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</None>
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<Folder Include="Shaders\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="OpenTK" Version="4.9.4" />
+		<PackageReference Include="StbImageSharp" Version="2.30.15" />
+		<PackageReference Include="System.Drawing.Common" Version="9.0.10" />
+	</ItemGroup>
+	
+
+</Project>
