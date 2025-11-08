@@ -44,7 +44,10 @@ Main challenges were (1) asset loading and pathingâ€”fixed by supporting both â€
 
 Credits: 
 https://craftpix.net/freebies/free-3-character-sprite-sheets-pixel-art/
+
 https://github.com/mouraleonardo/SpriteGameOpenTk/tree/main
+
 https://chatgpt.com/
+
 AI was used during parts of my project to help troubleshoot issues with animation playback and smoothing. Specifically, I used AI to clarify why the character animation was jerking back between frames and to understand how to correctly manage frame timing so the walk and run cycles would look smooth. The coding and implementation decisions, including movement logic and animation state transitions, were completed by me. The AI support was limited to debugging guidance and explanation of why the animation was not displaying smoothly.
 
